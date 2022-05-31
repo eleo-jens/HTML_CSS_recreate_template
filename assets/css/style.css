@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300;400;700&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1519px;
+    height: 937px;
+    background-image: url('../images/cuisine.jpg');
+    background-position: 50% 50%;
+    padding-top: 60px;
+    padding-left: 173px;
+}
+
+h1{
+    color: #fe7606;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 5rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-right: 200px;
+    line-height: 1.1;
+}
+
+p.sous-titre{
+    width:646px;
+    height: 57px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-left: 250px;
+}
+
+p.link{
+    width: 300px;
+    height: 28px;
+    text-transform: uppercase;
+    font-size: 1.10rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+    margin-left: 460px;
+    letter-spacing: 2px;
+}
+
+a.link{
+    text-decoration: none;
+    color: #fe7606;
+}
+
+div.un{
+    width: 361px;
+    height: 420px;
+    float:left;
+    background-color: white;
+    padding: 30px;
+    margin: 15px;
+}
+
+div.deux{
+    width: 361px;
+    height: 420px;
+    float:left;
+    background-color: rgba(0,0,0,0.6);
+    padding: 30px;
+    margin: 15px;
+    color: white;
+}
+
+div.trois{
+    width: 361px;
+    height: 420px;
+    float:left;
+    background-color: #fe7606;
+    color: white;
+    padding: 30px;
+    margin: 15px;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 8rem;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-top: 18px;
+}
+
+p.box{
+    font-size: 1.13rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin-top: 18px;
+    line-height: 1.6;
+}
+
+a.box{
+    display: block;
+    width: 112px;
+    height: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    color: #fe7606;
+    margin-top: 20px;
+    border-width: 2px;
+    border-bottom-color: #fe7606;
+}
+
+a.trois{
+    color: white;
+}
+
+div.deux h2{
+    color: #fe7606;
+}
+
+.menu{
+    width: 100%;
+    background-color: #141b23;
+    display: inline-block;
+    min-width:640px;
+} 
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* A cette etape que la barre apparait */
+.menu ul li{
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.menu .droite{
+    float:right;
+}
+
+.menu li ul{
+    display: none;
+    min-width: 150px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px;
+    background-color: transparent;
+    display: block;
+    white-space: nowrap;
+}
+
+.menu ul li a:hover{
+    background:#31353a;
+    color: #fe7606;
+}
+
+/* gestion du menu deroulant */
+.menu li:hover ul{
+    display: block;
+    position: absolute;
+}
+
+.menu li:hover li{
+    float:none;
+}
+
+.menu li:hover a{
+    background-color: #141b23;
+}
+
+.menu li:hover li a:hover{
+    background:#31353a;
+    color: #fe7606;
+}
